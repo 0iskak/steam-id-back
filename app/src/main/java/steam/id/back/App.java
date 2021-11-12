@@ -7,7 +7,7 @@ import static spark.Spark.*;
 @Slf4j
 public class App {
     public static void main(String[] args) {
-        port(8000);
+        port(Integer.parseInt(System.getenv("PORT")));
         get("/profile/:user", (req, res) -> UserUtil.getUser(req.params(":user")));
     }
 }
