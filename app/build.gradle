@@ -44,5 +44,5 @@ tasks.named('test') {
 }
 
 task stage() {
-    dependsOn run
+    dependsOn shadowJar
 }
