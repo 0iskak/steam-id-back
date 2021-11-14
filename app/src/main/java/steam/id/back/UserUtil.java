@@ -15,7 +15,7 @@ public class UserUtil {
     static ObjectMapper MAPPER = new ObjectMapper();
     static ObjectWriter WRITER = MAPPER.writerWithDefaultPrettyPrinter();
     // SET YOUR API
-    static String API = "A04A35FE065295A1E0ECF87D9B2BB605";
+    static String API = System.getenv("API");
     static String GET_ID = String.format("https://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/?key=%s&vanityurl=", API);
     static String GET_SMRY = String.format("https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=%s&steamids=", API);
     static String GET_BANS = String.format("https://api.steampowered.com/ISteamUser/GetPlayerBans/v1/?key=%s&steamids=", API);
