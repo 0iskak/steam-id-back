@@ -29,4 +29,4 @@ https://steam-id-back.herokuapp.com/profile/76561197960287930
         static String API = System.getenv("API");
         ```
 4. Go to project's root directory and run by `.\gradlew run` \
-or `.\gradlew build; java -jar app/build/libs/app-all.jar`
+or `.\gradlew shadowJar; java -jar app/build/libs/app-all.jar`
