@@ -1,7 +1,7 @@
 # steam-id-back
 ## About
 #### A backend for https://github.com/0iskak/steam-id-front
-Returna as JSON format profile general info, profile image url, steam ids, ban statuses and other things.
+Returns as JSON format profile general info, profile image url, steam ids, ban statuses and other things.
 ### Built With JDK 17 and
 * [Gradle](https://gradle.org/)
 * [Spark](https://sparkjava.com/)
